@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Preentrega2-Villarreal-ReactJS/static/css/main.79415786.css",
-    "main.js": "/Preentrega2-Villarreal-ReactJS/static/js/main.33780e7a.js",
+    "main.css": "/Preentrega2-Villarreal-ReactJS/static/css/main.180189d3.css",
+    "main.js": "/Preentrega2-Villarreal-ReactJS/static/js/main.aadb9d12.js",
+    "static/media/bootstrap-icons.woff?": "/Preentrega2-Villarreal-ReactJS/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/Preentrega2-Villarreal-ReactJS/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/Preentrega2-Villarreal-ReactJS/index.html",
-    "main.79415786.css.map": "/Preentrega2-Villarreal-ReactJS/static/css/main.79415786.css.map",
-    "main.33780e7a.js.map": "/Preentrega2-Villarreal-ReactJS/static/js/main.33780e7a.js.map"
+    "main.180189d3.css.map": "/Preentrega2-Villarreal-ReactJS/static/css/main.180189d3.css.map",
+    "main.aadb9d12.js.map": "/Preentrega2-Villarreal-ReactJS/static/js/main.aadb9d12.js.map"
   },
   "entrypoints": [
-    "static/css/main.79415786.css",
-    "static/js/main.33780e7a.js"
+    "static/css/main.180189d3.css",
+    "static/js/main.aadb9d12.js"
   ]
 }
