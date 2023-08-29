@@ -23,7 +23,7 @@ function ItemListContainer() {
     fetchServicios();
   }, [categoriaId]);
 
-  // Divide los servicios en grupos de 3 para crear una nueva fila por grupo
+  // 3 cards por row
   const serviciosRows = [];
   for (let i = 0; i < servicios.length; i += 3) {
     serviciosRows.push(servicios.slice(i, i + 3));
