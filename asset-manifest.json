@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Preentrega2-Villarreal-ReactJS/static/css/main.79415786.css",
+    "main.js": "/Preentrega2-Villarreal-ReactJS/static/js/main.33780e7a.js",
+    "index.html": "/Preentrega2-Villarreal-ReactJS/index.html",
+    "main.79415786.css.map": "/Preentrega2-Villarreal-ReactJS/static/css/main.79415786.css.map",
+    "main.33780e7a.js.map": "/Preentrega2-Villarreal-ReactJS/static/js/main.33780e7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79415786.css",
+    "static/js/main.33780e7a.js"
+  ]
+}
