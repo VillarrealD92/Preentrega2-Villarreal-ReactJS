@@ -46,7 +46,7 @@ function NavBar() {
               </li>
             </ul>
           </div>
-   
+          <CartWidget />
         </div>
       </nav>
     );
