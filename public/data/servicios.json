@@ -6,7 +6,7 @@
         "formato": "Domiciliario",
         "rating": "5",
         "precio": "8000",
-        "imagen": "./src/assets/individual/adiestradores/adiestrador1.webp",
+        "imagen": "../assets/individual/adiestradores/adiestrador1.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@adiestramiento.com"
     },
@@ -17,7 +17,7 @@
         "formato": "Deportivo",
         "rating": "3",
         "precio": "6000",
-        "imagen": "./src/assets/individual/adiestradores/adiestrador2.webp",
+        "imagen": "../assets/individual/adiestradores/adiestrador2.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@adiestramiento.com"
     },
@@ -28,7 +28,7 @@
         "formato": "Terapia",
         "rating": "3",
         "precio": "1000",
-        "imagen": "./src/assets/individual/adiestradores/adiestrador3.webp",
+        "imagen": "../assets/individual/adiestradores/adiestrador3.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@adiestramiento.com"
     },
@@ -39,7 +39,7 @@
         "formato": "Asistencia",
         "rating": "5",
         "precio": "6000",
-        "imagen": "./src/assets/individual/adiestradores/adiestrador4.webp",
+        "imagen": "../assets/individual/adiestradores/adiestrador4.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@adiestramiento.com"
     },
@@ -50,7 +50,7 @@
         "formato": "Domiciliario",
         "rating": "3",
         "precio": "5000",
-        "imagen": "./src/assets/individual/adiestradores/adiestrador5.webp",
+        "imagen": "../assets/individual/adiestradores/adiestrador5.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@adiestramiento.com"
     },
@@ -61,7 +61,7 @@
         "formato": "Etologia",
         "rating": "4",
         "precio": "7000",
-        "imagen": "./src/assets/individual/adiestradores/adiestrador6.webp",
+        "imagen": "../assets/individual/adiestradores/adiestrador6.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@adiestramiento.com"
     },
@@ -72,7 +72,7 @@
         "formato": "Etologia",
         "rating": "4",
         "precio": "1000",
-        "imagen": "./src/assets/individual/adiestradores/adiestrador7.webp",
+        "imagen": "../assets/individual/adiestradores/adiestrador7.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@adiestramiento.com"
     },
@@ -83,7 +83,7 @@
         "formato": "Domiciliario",
         "rating": "4",
         "precio": "7000",
-        "imagen": "./src/assets/individual/adiestradores/adiestrador8.webp",
+        "imagen": "../assets/individual/adiestradores/adiestrador8.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@adiestramiento.com"
     },
@@ -94,7 +94,7 @@
         "formato": "Terapia",
         "rating": "2",
         "precio": "1000",
-        "imagen": "./src/assets/individual/adiestradores/adiestrador9.webp",
+        "imagen": "../assets/individual/adiestradores/adiestrador9.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@adiestramiento.com"
     },
@@ -105,7 +105,7 @@
         "formato": "Domiciliario",
         "rating": "3",
         "precio": "9000",
-        "imagen": "./src/assets/individual/adiestradores/adiestrador10.webp",
+        "imagen": "../assets/individual/adiestradores/adiestrador10.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@adiestramiento.com"
     },
@@ -116,7 +116,7 @@
         "formato": "Etologia",
         "rating": "2",
         "precio": "6000",
-        "imagen": "./src/assets/individual/adiestradores/adiestrador11.webp",
+        "imagen": "../assets/individual/adiestradores/adiestrador11.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@adiestramiento.com"
     },
@@ -127,7 +127,7 @@
         "formato": "Domiciliario",
         "rating": "4",
         "precio": "5000",
-        "imagen": "./src/assets/individual/adiestradores/adiestrador12.webp",
+        "imagen": "../assets/individual/adiestradores/adiestrador12.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@adiestramiento.com"
     },
@@ -138,7 +138,7 @@
         "formato": "Quinta",
         "rating": "5",
         "precio": "9000",
-        "imagen": "./src/assets/individual/guarderias/guarderia1.webp",
+        "imagen": "../assets/individual/guarderias/guarderia1.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@guarderia.com"
     },
@@ -149,7 +149,7 @@
         "formato": "Casa",
         "rating": "3",
         "precio": "3000",
-        "imagen": "./src/assets/individual/guarderias/guarderia2.webp",
+        "imagen": "../assets/individual/guarderias/guarderia2.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@guarderia.com"
     },
@@ -160,7 +160,7 @@
         "formato": "Casa-Quinta",
         "rating": "2",
         "precio": "2000",
-        "imagen": "./src/assets/individual/guarderias/guarderia3.webp",
+        "imagen": "../assets/individual/guarderias/guarderia3.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@guarderia.com"
     },
@@ -171,7 +171,7 @@
         "formato": "Casa",
         "rating": "1",
         "precio": "10000",
-        "imagen": "./src/assets/individual/guarderias/guarderia4.webp",
+        "imagen": "../assets/individual/guarderias/guarderia4.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@guarderia.com"
     },
@@ -182,7 +182,7 @@
         "formato": "Departamento",
         "rating": "5",
         "precio": "7000",
-        "imagen": "./src/assets/individual/guarderias/guarderia5.webp",
+        "imagen": "../assets/individual/guarderias/guarderia5.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@guarderia.com"
     },
@@ -193,7 +193,7 @@
         "formato": "Quinta",
         "rating": "3",
         "precio": "10000",
-        "imagen": "./src/assets/individual/guarderias/guarderia6.webp",
+        "imagen": "../assets/individual/guarderias/guarderia6.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@guarderia.com"
     },
@@ -204,7 +204,7 @@
         "formato": "Casa-Quinta",
         "rating": "2",
         "precio": "1000",
-        "imagen": "./src/assets/individual/guarderias/guarderia7.webp",
+        "imagen": "../assets/individual/guarderias/guarderia7.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@guarderia.com"
     },
@@ -215,7 +215,7 @@
         "formato": "Quinta",
         "rating": "3",
         "precio": "5000",
-        "imagen": "./src/assets/individual/guarderias/guarderia8.webp",
+        "imagen": "../assets/individual/guarderias/guarderia8.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@guarderia.com"
     },
@@ -226,7 +226,7 @@
         "formato": "Casa-Quinta",
         "rating": "4",
         "precio": "4000",
-        "imagen": "./src/assets/individual/guarderias/guarderia9.webp",
+        "imagen": "../assets/individual/guarderias/guarderia9.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@guarderia.com"
     },
@@ -237,7 +237,7 @@
         "formato": "Casa",
         "rating": "4",
         "precio": "5000",
-        "imagen": "./src/assets/individual/guarderias/guarderia10.webp",
+        "imagen": "../assets/individual/guarderias/guarderia10.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@guarderia.com"
     },
@@ -248,7 +248,7 @@
         "formato": "hora",
         "rating": "3",
         "precio": "5000",
-        "imagen": "./src/assets/individual/paseadores/paseador1.webp",
+        "imagen": "../assets/individual/paseadores/paseador1.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@paseos.com"
     },
@@ -259,7 +259,7 @@
         "formato": "dia",
         "rating": "5",
         "precio": "6000",
-        "imagen": "./src/assets/individual/paseadores/paseador2.webp",
+        "imagen": "../assets/individual/paseadores/paseador2.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@paseos.com"
     },
@@ -270,7 +270,7 @@
         "formato": "hora",
         "rating": "5",
         "precio": "7000",
-        "imagen": "./src/assets/individual/paseadores/paseador3.webp",
+        "imagen": "../assets/individual/paseadores/paseador3.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@paseos.com"
     },
@@ -281,7 +281,7 @@
         "formato": "hora",
         "rating": "2",
         "precio": "8000",
-        "imagen": "./src/assets/individual/paseadores/paseador4.webp",
+        "imagen": "../assets/individual/paseadores/paseador4.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@paseos.com"
     },
@@ -292,7 +292,7 @@
         "formato": "dia",
         "rating": "4",
         "precio": "9000",
-        "imagen": "./src/assets/individual/paseadores/paseador5.webp",
+        "imagen": "../assets/individual/paseadores/paseador5.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@paseos.com"
     },
@@ -303,7 +303,7 @@
         "formato": "dia",
         "rating": "2",
         "precio": "10000",
-        "imagen": "./src/assets/individual/paseadores/paseador6.webp",
+        "imagen": "../assets/individual/paseadores/paseador6.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@paseos.com"
     },
@@ -314,7 +314,7 @@
         "formato": "Emergenicias - Comercial",
         "rating": "3",
         "precio": "5000",
-        "imagen": "./src/assets/individual/vetes/vete1.webp",
+        "imagen": "../assets/individual/vetes/vete1.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@veterinarias.com"
     },
@@ -325,7 +325,7 @@
         "formato": "Emergenicias - Comercial",
         "rating": "3",
         "precio": "9000",
-        "imagen": "./src/assets/individual/vetes/vete2.webp",
+        "imagen": "../assets/individual/vetes/vete2.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@veterinarias.com"
     },
@@ -336,7 +336,7 @@
         "formato": "Emergenicias - Comercial",
         "rating": "5",
         "precio": "5000",
-        "imagen": "./src/assets/individual/vetes/vete3.webp",
+        "imagen": "../assets/individual/vetes/vete3.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@veterinarias.com"
     },
@@ -347,7 +347,7 @@
         "formato": "Emergenicias - Comercial",
         "rating": "2",
         "precio": "8000",
-        "imagen": "./src/assets/individual/vetes/vete4.webp",
+        "imagen": "../assets/individual/vetes/vete4.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@veterinarias.com"
     },
@@ -358,7 +358,7 @@
         "formato": "Emergenicias - Comercial",
         "rating": "3",
         "precio": "6000",
-        "imagen": "./src/assets/individual/vetes/vete5.webp",
+        "imagen": "../assets/individual/vetes/vete5.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@veterinarias.com"
     },
@@ -369,7 +369,7 @@
         "formato": "Emergenicias - Comercial",
         "rating": "5",
         "precio": "2000",
-        "imagen": "./src/assets/individual/vetes/vete6.webp",
+        "imagen": "../assets/individual/vetes/vete6.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@veterinarias.com"
     },
@@ -380,7 +380,7 @@
         "formato": "Internacional - Nacional",
         "rating": "3",
         "precio": "4000",
-        "imagen": "./src/assets/individual/traslados/traslado1.webp",
+        "imagen": "../assets/individual/traslados/traslado1.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@traslados.com"
     },
@@ -391,7 +391,7 @@
         "formato": "Nacional",
         "rating": "3",
         "precio": "6000",
-        "imagen": "./src/assets/individual/traslados/traslado2.webp",
+        "imagen": "../assets/individual/traslados/traslado2.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@traslados.com"
     },
@@ -402,7 +402,7 @@
         "formato": "Internacional - Nacional",
         "rating": "5",
         "precio": "9000",
-        "imagen": "./src/assets/individual/traslados/traslado3.webp",
+        "imagen": "../assets/individual/traslados/traslado3.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@traslados.com"
     },
@@ -413,7 +413,7 @@
         "formato": "Internacional",
         "rating": "2",
         "precio": "5000",
-        "imagen": "./src/assets/individual/traslados/traslado4.webp",
+        "imagen": "../assets/individual/traslados/traslado4.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@traslados.com"
     },
@@ -424,7 +424,7 @@
         "formato": "Nacional",
         "rating": "4",
         "precio": "3000",
-        "imagen": "./src/assets/individual/traslados/traslado5.webp",
+        "imagen": "../assets/individual/traslados/traslado5.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@traslados.com"
     },
@@ -435,7 +435,7 @@
         "formato": "Internacional - Nacional",
         "rating": "5",
         "precio": "6000",
-        "imagen": "./src/assets/individual/traslados/traslado6.webp",
+        "imagen": "../assets/individual/traslados/traslado6.webp",
         "telefono": "+54 9 11 2345 7890",
         "email": "emailinventado@traslados.com"
     }

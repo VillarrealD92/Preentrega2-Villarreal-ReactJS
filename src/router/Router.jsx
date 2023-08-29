@@ -10,9 +10,6 @@ import ItemListContainer from '../components/ItemListContainer';
 
 
 export default function Router (){
-    
-    console.log('Rendering Router...');
-
 
     return (
         <BrowserRouter>
