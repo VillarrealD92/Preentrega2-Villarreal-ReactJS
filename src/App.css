@@ -46,7 +46,16 @@
   
 }
 
+/* DETAIL */
 
+.tel .mail{
+  font-weight: italic;
+}
+
+.fotodetail{
+  display: flex;
+  justify-content: center;
+}
 
 
 

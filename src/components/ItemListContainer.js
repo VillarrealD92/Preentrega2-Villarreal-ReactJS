@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 function ItemListContainer() {
   const [servicios, setServicios] = useState([]);
@@ -31,12 +31,13 @@ function ItemListContainer() {
 
   return (
     <div>
+      {categoriaId && <h2 className='text-center'>{categoriaId.toUpperCase()}</h2>}
       {serviciosRows.map((row, index) => (
         <div key={index} className="row justify-content-center">
           {row.map((servicio) => (
-            <article key={servicio.id} className="col-sm-12 col-md-8 col-lg-3 my-3">
+            <article key={servicio.id} className="col-sm-12 col-md-8 col-lg-3 my-3 mx-2">
               <div className="card">
-                <img src={`${process.env.PUBLIC_URL}${servicio.imagen.substring(1)}`} className="card-img-top" alt={`foto_${servicio.nombre}`} />
+                <img src={`${process.env.PUBLIC_URL}${servicio.imagen}`} className="card-img-top" alt={`foto_${servicio.nombre}`} />
                 <div className="card-body text-center">
                   <h3 className="card-title">{servicio.nombre}</h3>
                 </div>
@@ -51,7 +52,7 @@ function ItemListContainer() {
                   </li>
                 </ul>
                 <div className="card-body text-center">
-                  <button type="button" className="btn btn-info"> Info </button>
+                  <button type="button" className="btn btn-info"> <Link to={`/servicio/${servicio.id}`} className='text-light'> Info </Link> </button>
                 </div>
               </div>
             </article>
