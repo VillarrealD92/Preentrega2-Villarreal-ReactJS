@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/Preentrega2-Villarreal-ReactJS/static/css/main.7101490a.css",
-    "main.js": "/Preentrega2-Villarreal-ReactJS/static/js/main.83a48d2f.js",
+    "main.css": "/Preentrega2-Villarreal-ReactJS/static/css/main.2c2b4484.css",
+    "main.js": "/Preentrega2-Villarreal-ReactJS/static/js/main.dabb1bde.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Preentrega2-Villarreal-ReactJS/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/bgmain.jpg": "/Preentrega2-Villarreal-ReactJS/static/media/bgmain.0158b07196d136411ae1.jpg",
+    "static/media/fontawesome-webfont.eot": "/Preentrega2-Villarreal-ReactJS/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Preentrega2-Villarreal-ReactJS/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/bootstrap-icons.woff?": "/Preentrega2-Villarreal-ReactJS/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/Preentrega2-Villarreal-ReactJS/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Preentrega2-Villarreal-ReactJS/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Preentrega2-Villarreal-ReactJS/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/Preentrega2-Villarreal-ReactJS/index.html",
-    "main.7101490a.css.map": "/Preentrega2-Villarreal-ReactJS/static/css/main.7101490a.css.map",
-    "main.83a48d2f.js.map": "/Preentrega2-Villarreal-ReactJS/static/js/main.83a48d2f.js.map"
+    "main.2c2b4484.css.map": "/Preentrega2-Villarreal-ReactJS/static/css/main.2c2b4484.css.map",
+    "main.dabb1bde.js.map": "/Preentrega2-Villarreal-ReactJS/static/js/main.dabb1bde.js.map"
   },
   "entrypoints": [
-    "static/css/main.7101490a.css",
-    "static/js/main.83a48d2f.js"
+    "static/css/main.2c2b4484.css",
+    "static/js/main.dabb1bde.js"
   ]
 }
