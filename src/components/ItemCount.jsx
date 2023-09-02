@@ -20,7 +20,7 @@ function ItemCount() {
         <div className="mt-3">
             <button onClick={decrementCantidad} className="btn btn-secondary">-</button>
             <span className="mx-2">{cantidad}</span>
-            <button onClick={incrementCantidad} className="btn btn-secondary">+</button>
+            <button onClick={incrementCantidad} className="btn btn-primary">+</button>
         </div>
     );
 }

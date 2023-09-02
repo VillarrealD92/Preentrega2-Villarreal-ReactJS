@@ -1,52 +1,48 @@
 import '../App.css';
 import ItemCount from './ItemCount';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 function ItemDetail({ servicio }) {
 
     return (
-        <div className="card">
-            <div className="image-container fotodetail d-flex align-items-center justify-content-center">
-                <img
-                    src={`${process.env.PUBLIC_URL}${servicio.imagen}`}
-                    className="card-img-top"
-                    alt={`foto_${servicio.nombre}`}
-                />
-            </div>
-            <div className="card-body text-center">
-                <h3 className="card-title">{servicio.nombre}</h3>
-            </div>
-            <ul className="list-group list-group-flush">
-                <li className="list-group-item d-flex justify-content-center">
-                    <div>
-                        <p>Formato:</p>
+        <div className="d-flex justify-content-center adjust-item-center my-5">
+            <div className="card mb-3 custom-card">
+                <div className="row g-0">
+                    <div className="col-md-4 ">
+                        <img src={`${process.env.PUBLIC_URL}${servicio.imagen}`} className="card-img-top fotodetail" alt={`foto_${servicio.nombre}`} />
                     </div>
-                    <div>
-                        <p className="format">{servicio.formato}</p>
+                    <div className="col-md-8">
+                        <div className="card-body">
+                            <h3 className="card-title text-center">{servicio.nombre}</h3>
+                            <div className="text-center align-content-center">
+                                <div>
+                                    <p className="format">Formato: {servicio.formato}</p>
+                                    <p className="price bg-warning">Precio: {servicio.precio}Ars</p>
+                                </div>
+                                <div>
+                                    <h5>Contacto:</h5>
+                                    <ul className="list-unstyled">
+                                        <li>
+                                            <i className="fa fa-paw fa-lg">
+                                                Telefono: {servicio.telefono} 
+                                            </i>
+                                        </li>
+                                        <li>
+                                            <i className="fa fa-paw fa-lg">
+                                                Email: {servicio.email}
+                                            </i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="text-center">
+                              <ItemCount />  
+                            </div>
+                            
+                        </div>
                     </div>
-                </li>
-                <li className="list-group-item d-flex justify-content-center">
-                    <div>
-                        <p>Precio:</p>
-                    </div>
-                    <div>
-                        <p className="price">{servicio.precio}</p>
-                    </div>
-                </li>
-            </ul>
-            <div className='contacto text-center'>
-                <h4 className='font-weight-bold'>Contacto</h4>
-                <div className='tel'>
-                    <p>Telefono:</p>
-                    <p>{servicio.telefono}</p>
                 </div>
-                <div className='mail'>
-                    <p>Email:</p>
-                    <p>{servicio.email}</p>
-                </div>
-            </div>
-            <div className="card-body text-center justify-content-center">
-                <ItemCount />
             </div>
         </div>
     );
