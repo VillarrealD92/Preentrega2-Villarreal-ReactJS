@@ -3,24 +3,20 @@ import {
     Routes,
     Route,
   } from "react-router-dom";
-import '../App.css';
-import NavBar from '../components/NavBar';
-import ItemListContainer from '../components/ItemListContainer';
-import ItemDetailContainer from '../components/ItemDetailContainer';
-
-
-
-
-export default function Router (){
-
+  import '../App.css';
+  import NavBar from '../components/NavBar';
+  import ItemListContainer from '../components/ItemListContainer';
+  import ItemDetailContainer from '../components/ItemDetailContainer';
+  
+  export default function Router() {
     return (
-        <BrowserRouter>
+      <BrowserRouter>
         <NavBar />
         <Routes>
-            <Route path="/" element={<ItemListContainer />} />
-            <Route path="/categoria/:id" element={<ItemListContainer />} />
-            <Route path="/servicio/:id" element={<ItemDetailContainer />} />
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/categoria/:id" element={<ItemListContainer />} />
+          <Route path="/servicio/:id" element={<ItemDetailContainer />} />
         </Routes>
-        </BrowserRouter>
-    )
-}
+      </BrowserRouter>
+    );
+  }
