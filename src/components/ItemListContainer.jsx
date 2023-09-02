@@ -35,7 +35,7 @@ function ItemListContainer() {
       {serviciosRows.map((row, index) => (
         <div key={index} className="row justify-content-center">
           {row.map((servicio) => (
-            <article key={servicio.id} className="col-sm-12 col-md-8 col-lg-3 my-3 mx-2">
+            <article key={servicio.id} className="col-sm-12 col-md-8 col-lg-3 my-2">
               <div className="card">
                 <img src={`${process.env.PUBLIC_URL}${servicio.imagen}`} className="card-img-top" alt={`foto_${servicio.nombre}`} />
                 <div className="card-body text-center">

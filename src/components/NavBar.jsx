@@ -3,8 +3,6 @@ import {Link} from 'react-router-dom';
 import CartWidget from './CartWidget';
 import logo from '../assets/logo.png';
 
-
-
 function NavBar() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-dark text-light">
@@ -21,27 +19,27 @@ function NavBar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto ">
               <li className="nav-item">
-                <Link className="nav-link text-center " to="categoria/adiestramiento"> 
+                <Link className="nav-link text-center " to="/categoria/adiestramiento"> 
                   <i className="bi bi-cone-striped d-block"></i> Adiestramiento
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-center" to="categoria/guarderias">
+                <Link className="nav-link text-center" to="/categoria/guarderias">
                   <i className="bi bi-house-heart d-block"></i> Guarderias
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-center" to="categoria/paseos">
+                <Link className="nav-link text-center" to="/categoria/paseos">
                   <i className="bi bi-person-heart d-block"></i> Paseos
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-center" to="categoria/traslados">
+                <Link className="nav-link text-center" to="/categoria/traslados">
                   <i className="bi bi-airplane d-block"></i> Traslados
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-center" to="categoria/veterinarias">
+                <Link className="nav-link text-center" to="/categoria/veterinarias">
                   <i className="bi bi-heart-pulse d-block"></i> Veterinarias
                 </Link>
               </li>
@@ -52,4 +50,5 @@ function NavBar() {
       </nav>
     );
   }
+  
   export default NavBar;

@@ -1,22 +1,12 @@
-import React, { useState } from 'react';
+import '../App.css';
+import ItemCount from './ItemCount';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ItemDetail({ servicio }) {
-    const [cantidad, setCantidad] = useState(1);
-
-    const incrementCantidad = () => {
-        setCantidad(prevCantidad => prevCantidad + 1);
-    };
-
-    const decrementCantidad = () => {
-        if (cantidad > 1) {
-            setCantidad(prevCantidad => prevCantidad - 1);
-        }
-    };
 
     return (
-        <div className="card ">
-            <div className="image-container fotodetail">
+        <div className="card">
+            <div className="image-container fotodetail d-flex align-items-center justify-content-center">
                 <img
                     src={`${process.env.PUBLIC_URL}${servicio.imagen}`}
                     className="card-img-top"
@@ -55,12 +45,8 @@ function ItemDetail({ servicio }) {
                     <p>{servicio.email}</p>
                 </div>
             </div>
-            <div className="card-body text-center">
-                <div className="mt-3">
-                    <button onClick={decrementCantidad} className="btn btn-secondary">-</button>
-                    <span className="mx-2">{cantidad}</span>
-                    <button onClick={incrementCantidad} className="btn btn-secondary">+</button>
-                </div>
+            <div className="card-body text-center justify-content-center">
+                <ItemCount />
             </div>
         </div>
     );
